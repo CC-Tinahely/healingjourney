@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>CC's Angel Cards</title>
+	<link rel="stylesheet" href="stylesheet.css" type="text/css">
+  </head>
+  <body style="background-color: #330011; background-image: none;">
+
+<h2> Your Angel Guidance </h2>
+
+<script type="text/javascript">
+// place your images in this array
+var random_images_array = ['1.jpg', '2.jpg', '3.jpg', '4.jpg', '5.jpg', '6.jpg','7.jpg','8.jpg','9.jpg','10.jpg','11.jpg','12.jpg','13.jpg','14.jpg','15.jpg','16.jpg',
+'17.jpg','18.jpg','19.jpg','20.jpg','21.jpg','22.jpg','23.jpg','24.jpg','25.jpg','26.jpg','27.jpg','28.jpg','29.jpg','30.jpg','31.jpg','32.jpg','33.jpg','34.jpg','35.jpg','36.jpg',
+'37.jpg','38.jpg','39.jpg','40.jpg','41.jpg','42.jpg','43.jpg','44.jpg', ];
+    
+function getRandomImage(imgAr, path) {
+    path = path || 'images/'; // default path here
+    var num = Math.floor( Math.random() * imgAr.length );
+    var img = imgAr[ num ];
+    var imgStr = '<img src="' + path + img + '" alt = "" style="max-width: 100%; height:auto; margin-left:auto; margin-right: auto;">';
+    document.write(imgStr); document.close();
+}
+
+</script>
+
+<script type="text/javascript">getRandomImage(random_images_array, 'images/')</script>
+</div>
+<br>
+
+<h2>Book a card reading with CC</h2>
+<br>
+<br>
+<a href="mailto:ccshealingjourney@outlook.ie" target="_top">ccshealingjourney@outlook.ie</a>
+<br>
+<br>
+<br>
+<br>
+<a href="index.html" style="color:white">Back to main page</a> 
+
+  </body>
+</html>
